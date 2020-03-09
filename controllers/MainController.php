@@ -22,8 +22,12 @@ class MainController extends Controller
 		$md5HashCracker::setSalt(UserHash::SALT);
 		$hashes = UserHash::all();
 		$hashes = UserHash::objectsToArray($hashes);
-		$md5HashCracker->decode($hashes);
-		return $this->index();
+		$decodedHashes = $md5HashCracker->decode($hashes);
+		if(!empty($_POST)
+		 && $_POST['action'] === 'runDecode'){
+			return $this->index();
+		}
+		return $decodedHashes;
 	}
 
 	public function runHardDecode(){
