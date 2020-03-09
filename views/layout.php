@@ -79,7 +79,7 @@
 					<?php
 					if(!isset($params['running_decode'])):
 						?>
-            <button type="submit" class="btn btn-primary"> Run Decode</button>
+            <button type="submit" class="btn btn-primary"> Run Simple Decode(Easy, Medium)</button>
 					<?php
           elseif (isset($params['running_decode'])):
 						?>
@@ -93,6 +93,7 @@
           <button type="submit" class="btn btn-danger"> Clear passwords</button>
         </form>
       </div>
+      <small>It might take some time to decode passwords</small>
 		</div>
 	</div>
 
