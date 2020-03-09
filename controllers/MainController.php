@@ -5,6 +5,10 @@ use components\Md5HashCracker;
 use core\Controller;
 use models\UserHash;
 
+/**
+ * Class MainController
+ * @package controllers
+ */
 class MainController extends Controller
 {
 

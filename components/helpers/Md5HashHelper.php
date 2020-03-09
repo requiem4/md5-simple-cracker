@@ -1,6 +1,9 @@
 <?php
 namespace components\helpers;
-
+/**
+ * Class Md5HashHelper
+ * @package components\helpers
+ */
 class Md5HashHelper
 {
 	public function combinationUtil($chars, $charsCount, $generatedCharsCount, $index, $data, $i, &$combinations = []) {

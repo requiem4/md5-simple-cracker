@@ -8,6 +8,10 @@ use components\helpers\Md5HashHelper;
 use models\CheckedPasswords;
 use models\UserHash;
 
+/**
+ * Class Md5HashCracker - main class for decode hashes
+ * @package components
+ */
 class Md5HashCracker {
 	const CHARS_COUNT = 4;
 	const HARD_CHARS_COUNT = 6;
