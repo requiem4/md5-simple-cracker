@@ -5,6 +5,12 @@
 Located in: components\helpers
  - https://github.com/noetix/Simple-ORM for orm
  
+Install:
+ - git clone git@github.com:requiem4/md5-simple-cracker.git
+ - You would need to create database and set up access for it in 
+ /config/config.php
+ - Please use db.sql.tar.gz as dump in config folder 
+ 
  <h4>Commands:</h4>
   php ./run.php 
       

@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * Create by Alex Luzhanovskyi
+ */
 namespace components;
 
 use components\helpers\Md5HashHelper;
